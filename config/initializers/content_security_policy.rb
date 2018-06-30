@@ -14,6 +14,10 @@
 
 #   # Specify URI for violation reports
 #   # policy.report_uri "/csp-violation-report-endpoint"
+#
+#
+#   # webpacker:install told me to do this.
+# policy.connect_src :self, :https, "http://localhost:3035", "ws://localhost:3035" if Rails.env.development?
 # end
 
 # If you are using UJS then enable automatic nonce generation
