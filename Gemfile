@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 gem 'rails', '~> 5.2.0'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'webpacker'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
